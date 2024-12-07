@@ -3,6 +3,8 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 
+# just a comment to test
+
 def scrape_data(url):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)  # Set headless=False to see the browser in action
